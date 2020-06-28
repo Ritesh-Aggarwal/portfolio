@@ -1,2 +1,2 @@
-# potfolio
-Portfolio
+# Portfolio
+Basic portfolio made by me.
