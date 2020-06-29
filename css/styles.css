@@ -44,6 +44,10 @@ body{
 #navbar a:hover{
 	color: #e2e3e4;
 }
+.navbar-toggler-icon{
+	color: #d7122a;
+}
+.iconify { color: red; }
 #list .active{
 	color: #d7122a;
 	font-weight: 500;
@@ -84,10 +88,7 @@ h2{
 	
 	margin:20px auto 15px auto;
 }
-h2 span{
-	color: #d7122a;
-	font-weight: 10000;
-}
+
 .red{
 	color: #d7122a;
 }
