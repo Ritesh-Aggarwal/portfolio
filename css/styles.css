@@ -1,0 +1,108 @@
+body{
+	
+	
+	background-image: url('../images/starry.png');
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+@media(min-width:768px)
+{
+	.red-btn{
+		border:2px #d7122a solid;
+		border-radius: 5px;
+		color: white !important;
+		background-color: #d7122a;
+		padding: 3px;
+		margin-right: 10px !important;
+	}
+	.red-btn:hover{
+		color: #d7122a !important;
+		background-color: #191c1e;
+
+	}
+	.active{
+		color: #d7122a !important;
+		background-color: #191c1e;
+	}
+}
+/*HEADER*/
+
+ #navbar .navbar-brand{
+	font-weight: bold !important;
+	font-size: 1.7em;
+	font-family: 'MuseoModerno', cursive;
+	/*color:#bc2d3e;*/color: #d7122a;
+}
+#navbar {
+	background-color: #191c1e;
+}
+#navbar a{
+	color: #d7122a;
+	font-size: 1.2em;
+}
+#navbar a:hover{
+	color: #e2e3e4;
+}
+#list .active{
+	color: #d7122a;
+	font-weight: 500;
+}
+
+/*END OF HEADER*/
+/*MAIN*/
+#About{
+	background: rgb(6,7,7);
+	font-weight: 900;
+	font-size: .25vw;
+}
+ #quote{
+	background-color: #b30f23;
+	margin-top: -35px;
+	text-align: right;
+}
+#info{
+	background:transparent;
+	margin-top: -40px;
+	margin-bottom: -10px;
+}
+#info .container{
+	text-align: justify;
+}
+@media(max-width: 768px){
+#info .container{
+	max-height: 300px;
+	overflow: auto;
+	
+}
+}
+#para{
+	font-size: 1em;
+
+}
+h2{
+	
+	margin:20px auto 15px auto;
+}
+h2 span{
+	color: #d7122a;
+	font-weight: 10000;
+}
+.red{
+	color: #d7122a;
+}
+.black{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+/*END OF MAIN*/
+/*FOOTER*/
+
+footer{
+	 background-color: #4e4e50;
+}
+
+/*END OF FOOTER*/
