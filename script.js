@@ -1,18 +1,18 @@
-$("#hi").hide().fadeIn(1500);
-$("#name").hide().fadeIn(2000);
+// onload animation
 
-setTimeout(function () { 
-	$("#imgi").removeClass('shadow-soft');
-	setTimeout(function() {
-		$("#imgi").addClass('shadow-inset');
-	}, 200);
-	setTimeout(function() {
-		$("#imgi").removeClass('shadow-inset');
-	}, 500);
-	setTimeout(function() {
-		$("#imgi").addClass('shadow-soft');
-	}, 600);
- },2000);
+$("#hi").hide().fadeIn(1000);
+$("#name").hide().fadeIn(1500);
+
+// scroll Animation
+
+var slideUp = {
+    distance: '100px',
+    origin: 'bottom',
+    opacity: null,
+};
+ScrollReveal().reveal("#skills",slideUp);
+ScrollReveal().reveal("#projects",slideUp);
+
 
 
 
