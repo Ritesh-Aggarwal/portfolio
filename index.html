@@ -1,65 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ritesh Aggarwal</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@570&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist\css\neumorphism.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Fontawesome -->
+    <link type="text/css" href="dist/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+    <title>Portfolio ritesh-aggarwal</title>
 </head>
 <body>
-	<header>
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
-			 <a class="navbar-brand" href="index.html">Ritesh Aggarwal</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			  <!-- <span class="navbar-toggler-icon"></span> --><span class="iconify" data-icon="octicon:grabber" style="margin-top: 0px; font-size:30px;color: #d7122a;"></span>
-			  </button>
-			 <div class="collapse navbar-collapse" id="collapsable">
-			    <div class="navbar-nav ml-auto" id="list">
-			      <a class="nav-item nav-link ml-auto mr-auto active red-btn" href="index.html">About<span class="sr-only">(current)</span></a>
-			      <a class="nav-item nav-link ml-auto mr-auto red-btn" href="projects.html">Projects</a>
-			      <a class="nav-item nav-link ml-auto mr-auto disabled red-btn" href="#">More</a>
-			    </div>
-			 </div>
-		</nav>
-	</header>
-<main class="jumbotron jumbotron-fluid" id="About">
-  <div class="container">
-	<h2 class="display-4"><span class="red">Hi!</span></h2>
-    <p class="lead">My name is <span class="red">Ritesh Aggarwal</span> and i am not the founder of <span class="red">OYO</span> XD</p>
-  </div>
-</main>
-<div class="jumbotron jumbotron-fluid" id="quote">
-  <div class="container">
-	<h5><span>“ I have no special talent.I am only <span class="black">passionately curious.</span>"</span></h5>
-    <p class="lead">-Albert Einstein</p>
-  </div>
+    
+    <!-- nav -->
+    <nav class="navbar shadow-soft navbar-expand-lg navbar-transparent navbar-light navbar-theme-primary mb-4">
+        <div class="container position-relative">
+            <a class="navbar-brand mr-lg-5" href="index.html">
+                Ritesh Aggarwal
+            </a>
+            <div class="navbar-collapse collapse" id="navbar-default-primary">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                           <a class="navbar-brand mr-lg-5" href="index.html">
+                                More
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <i class="fas fa-times" data-toggle="collapse" role="button"
+                                data-target="#navbar-default-primary" aria-controls="navbar-default-primary"
+                                aria-expanded="false" aria-label="Toggle navigation"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="text-dark mb-0">My work</p>
+                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse"
+                    data-target="#navbar-default-primary" aria-controls="navbar-default-primary"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="section section-lg pt-0">
+<div class=" container col-12">
+    <div class="ml-4 mt-5 mr-5 mb-3 rounded-circle float-left " style="height: 300px; width: 300px; shape-outside:square();">
+        <div id="imgo" class="profile-image shadow-inset border border-light rounded-circle bg-primary p-3 w-100 h-100">
+            <img id="imgi" src="dist/assets/img/me.jpg" class="card-img-top shadow-soft p-3 border border-light rounded-circle " alt="Joseph Avatar">
+        </div>
+    </div>
+    <p class="lead pt-5" style="text-align: justify;">
+        <span id="hi" style="font-size: 4rem;">Hi! </span>
+        <span id="name" style="font-size: 3rem;"> My name is Ritesh Aggarwal.</span>
+       <p>  me to opt for er secondary education. The advancement in technology always amused me and I was eager to explore and learn which helped me to secure 90% in PCM and 92% in subject of computer science. After completing my high school, I feel that Engineering would be the area, which would give me the opportunity to learn and explore how the fundamentals of science are applied to create technology for practical and real purposes. My strengths have always been the power of imitation, strong analytical and reasonable thinking, which made me like the field of technology.
+        Thus, computer science engineering was a direct consequence of my convictions.</p></p>
 </div>
-<div class="jumbotron jumbotron-fluid" id="info">
-  	<div class="container">
-	    <p class="lead" id="para">
-	    	<div class="anim-fade-down">
-	    	We are currently in the midst of a technological and computing revolution that will drastically change our lives and <span class="red">potentially redefine what it means to be human.</span> I would be very excited at the prospect of devoting my long-term career to such <span class="red"> a dynamic, fast advancing field.</span> Ever since I was young, I have enjoyed dabbling with computers and experimenting with different applications. Because my own lifetime has essentially coincided with the rise of the modern computing industry, I can sense that there are still tremendous developments to come in this field. It was natural for me to choose Computer Science because of my interest in the field.<br>
-	    	My respect and inclination towards the technology drove me to opt for math, physics, and chemistry in my higher secondary education. The advancement in technology always amused me and I was eager to explore and learn which helped me to secure <span class="red">90% in PCM and 92% in subject of computer science.</span> After completing my high school, I feel that Engineering would be the area, which would give me the <span class="red">opportunity to learn and explore</span> how the fundamentals of science are applied to create technology for practical and real purposes. My strengths have always been the <span class="red">power of imitation, strong analytical and reasonable thinking,</span> which made me like the field of technology.<br>
-			Thus, computer science engineering was a direct consequence of my convictions.</div>
-		</p>
-  	</div>
 </div>
-<footer>
-	<div class="container">
-		Work under progress...
-	</div>
-</footer>
 
-<!-- jquery link -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<!-- skills -->
+<div class="section section-lg pt-0">
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-md-8 mb-5">
+            <h2 class="h4 font-weight-light">Skills</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card bg-primary shadow-soft border-light p-4">
+                <div class="row">
+
+                    <div class="mx-auto">
+                        <div class="card-body text-center bg-primary pt-3">
+                            <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
+                                img
+                            </div>
+                            <h2 class="h4 mr-2">Web dev</h2>
+                            <p class="mb-0"> site...under contruction</p>
+                        </div>
+                    </div>
+
+                    <div class="mx-auto">
+                        <div class="card-body text-center bg-primary pt-3">
+                            <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
+                                img
+                            </div>
+                            <h2 class="h4 mr-2">Web dev</h2>
+                            <p class="mb-0">some text about my skilss</p>
+                        </div>
+                    </div>
+
+                    <div class="mx-auto">
+                        <div class="card-body text-center bg-primary  pt-3">
+                            <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
+                                img
+                            </div>
+                            <h2 class="h4 mr-2">Web dev</h2>
+                            <p class="mb-0">nothing new . come back later</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- projects -->
+<div class="section section-lg pt-0">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-md-8 mb-5">
+                <h2 class="h4 font-weight-light">Projects</h2>
+            </div>
+        </div>
+        <div class="row align-items-center">
+
+            <!-- project item card -->
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card bg-primary border-light shadow-soft">
+                    <img src="Animation.gif" class="card-img-top rounded-top" alt="project">
+                    <div class="card-body"><span class="h6 icon-tertiary small">
+                        <i class="fab fa-html5 mr-2" style="font-size: 1.5rem;"></i>
+                        <i class="fab fa-css3-alt mr-2" style="font-size: 1.5rem;"></i>
+                        <i class="fab fa-js-square mr-2" style="font-size: 1.5rem;"></i>
+
+                        <h3 class="h5 card-title mt-3">JS-Game</h3>
+                        <p class="card-text">Fun game made using jquery, html, css and js.It is a derivative of "The Simon Game".Remember the sequence and recreate it to win.Length of sequence increses every level.</p>
+                        <a href="https://ritesh-aggarwal.github.io/JS-Game/" target="_blank" class="btn btn-primary btn-sm">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card end -->
+
+        </div>
+
+<div style="height: 300px;"></div>
+
+<script src="script.js"></script>
+
+
+<script src="dist/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="dist/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="dist/vendor/headroom.js/dist/headroom.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="dist/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+<script src="dist/vendor/nouislider/distribute/nouislider.min.js"></script>
+<script src="dist/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="dist/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="dist/vendor/jarallax/dist/jarallax.min.js"></script>
+<script src="dist/vendor/jquery.counterup/jquery.counterup.min.js"></script>
+<script src="dist/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="dist/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="dist/vendor/prismjs/prism.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Neumorphism JS -->
+<script src="dist/assets/js/neumorphism.js"></script>
+
 </body>
 </html>
