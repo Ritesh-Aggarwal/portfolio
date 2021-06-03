@@ -2,7 +2,7 @@
 setTimeout(function(){
 	var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app,{delay:90,cursor:'!'});
+var typewriter = new Typewriter(app,{delay:90,cursor:'|'});
 
 typewriter
 .typeString("Hi")
