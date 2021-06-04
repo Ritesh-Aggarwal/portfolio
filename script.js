@@ -1,8 +1,8 @@
 // onload animation
 setTimeout(function(){
-	var app = document.getElementById('app');
+	var app = document.getElementById('rite');
 
-var typewriter = new Typewriter(app,{delay:90,cursor:'|'});
+var typewriter = new Typewriter(rite,{delay:90,cursor:'|'});
 
 typewriter
 .typeString("Hi")
@@ -10,7 +10,7 @@ typewriter
 .deleteAll()
 .typeString("My name is Ritesh Aggarwal")
 .start();
-},100);
+},800);
 
 // scroll Animation
 
